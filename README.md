@@ -1,9 +1,9 @@
 # Initial-Windows-Apps-Installation
-Install with chocolately automatically all important apps for development
+Install with chocolatey automatically all important apps for development
 
-## [Chocolately](https://chocolatey.org/)
+## [Chocolatey](https://chocolatey.org/)
 
-1. Install chocolately in windows powershell as administrator - https://chocolatey.org/install
+1. Install chocolatey in windows powershell as administrator - https://chocolatey.org/install
 
 ```sh
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -28,4 +28,9 @@ choco export -o="'c:\{folderName}\packages.config'"
 ```sh 
 choco update all -y
 ```
+
+## Usefull Links
+* [Choco Install](https://chocolatey.org/install)
+* [Choco Packages](https://community.chocolatey.org/packages)
+* [Choco Cli](https://docs.chocolatey.org/en-us/choco/)
 
